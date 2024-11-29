@@ -1,4 +1,4 @@
-#!usr?bin/python3
+#!usr/bin/python3
 """Defines the function"""
 
 def makeChange(coins, total):
