@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """Island perimeter module"""
 
+
 def island_perimeter(grid):
     """Calculate perimeter of land"""
+
     row_count = len(grid)
     col_count = len(grid[0])
 
