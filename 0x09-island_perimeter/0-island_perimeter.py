@@ -13,6 +13,6 @@ def island_perimeter(grid):
                 u = (not i) or grid[i - 1][j] == 0
                 d = (i + 1 >= row_count) or grid[i + 1][j] == 0
                 l = (not j) or grid[i][j - 1] == 0
-                k = (j + 1 >= (col_count) or grid[j + 1][i] == 0
+                k = (j + 1 >= col_count) or grid[i][j + 1] == 0
                 perimeter += u + d + l + k
     return perimeter
